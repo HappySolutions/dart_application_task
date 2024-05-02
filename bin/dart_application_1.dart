@@ -35,7 +35,8 @@ void main() {
   car2.shoeCarInfo(car2.carColor, car2.manufactuerYear, car2.motorSpeed);
 
     print('=================================');
-
+    taxi1.shoeCarInfo(taxi1.carColor, taxi1.motorSpeed, taxi1.manufactuerYear);
+    taxi1.showMotorSpeed(taxi1.kilometersCount);
 
 }
 
